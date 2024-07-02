@@ -12,4 +12,13 @@ object Main extends App {
 
   val puzzle = new FutoshikiPuzzle(4, initialDigits, constraints)
   println(puzzle)
-}
+
+//   val solution = Solver.solve(puzzle)
+//   solution match {
+//   case Some(board) =>
+//     puzzle.updateBoard(board)
+//     println(puzzle.toString)
+//   case None =>
+//     println("No solution found.")
+// }
+// }

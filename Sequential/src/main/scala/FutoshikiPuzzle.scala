@@ -75,5 +75,11 @@ class FutoshikiPuzzle(val size: Int, initialDigits: Map[(Int, Int), Int], constr
 
   def getInitialBoard: Map[(Int, Int), Int] = initialDigits
 
+  def updateBoard(newBoard: Array[Array[Int]]): Unit = {
+  for (row <- 0 until size; col <- 0 until size) {
+    board(row)(col) = newBoard(row)(col)
+  }
+}
+
   
 }
