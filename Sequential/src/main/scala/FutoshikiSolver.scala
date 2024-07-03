@@ -59,21 +59,6 @@ class FutoshikiSolver(val grid: Array[Array[Option[Int]]], val constraints: Seq[
     }
   }
 
-  def solve(): Boolean = {
-    if (isSolved) return true
-    val cell = findEmptyCell().getOrElse(return false)
-    for (value <- possibleValues(cell.row)(cell.col)) {
-      if (isValid(cell, value)) {
-        setValue(cell, value)
-        if (solve()) return true
-        removeValue(cell)
-      }
-    }
-    false
-  }
-
-  def isSolved: Boolean = grid.forall(_.forall(_.isDefined))
-
   def findEmptyCell(): Option[Cell] = {
     grid.indices.flatMap { r =>
       grid.indices.collectFirst {
@@ -135,6 +120,21 @@ class FutoshikiSolver(val grid: Array[Array[Option[Int]]], val constraints: Seq[
     }
     true
   }
+
+    def solve(): Boolean = {
+    if (isSolved) return true
+    val cell = findEmptyCell().getOrElse(return false)
+    for (value <- possibleValues(cell.row)(cell.col)) {
+      if (isValid(cell, value)) {
+        setValue(cell, value)
+        if (solve()) return true
+        removeValue(cell)
+      }
+    }
+    false
+  }
+
+  def isSolved: Boolean = grid.forall(_.forall(_.isDefined))
 
   def printGrid(): Unit = {
     grid.foreach { row =>
