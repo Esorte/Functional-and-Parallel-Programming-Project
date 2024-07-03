@@ -14,7 +14,7 @@ object FutoshikiSolverApp extends App {
     Array(Some(9), None, None, Some(3), None, None, None, None, None),
     Array(None, None, None, None, None, None, None, None, None)
   )
-
+  
   val constraints = Seq(
     Constraint(Cell(0, 3), Cell(1, 3), '>'),
     Constraint(Cell(1, 3), Cell(1, 2), '>'),
@@ -41,6 +41,20 @@ object FutoshikiSolverApp extends App {
     Constraint(Cell(8, 5), Cell(7, 5), '<'),
     Constraint(Cell(8, 7), Cell(8, 8), '>')
   )
+
+  // val grid: Array[Array[Option[Int]]] = Array(
+  //   Array(None, None, None, None),
+  //   Array(Some(2), None, None, None),
+  //   Array(None, None, None, None),
+  //   Array(None, None, None, None)
+  // )
+
+  // val constraints = Seq(
+  //   Constraint(Cell(0, 0), Cell(1, 0), '<'),
+  //   Constraint(Cell(0, 2), Cell(0, 3), '<'),
+  //   Constraint(Cell(2, 2), Cell(3, 2), '<'),
+  //   Constraint(Cell(3, 2), Cell(3, 3), '<'),
+  // )
 
   val solver = new FutoshikiSolver(grid, constraints)
   solver.initialize()
