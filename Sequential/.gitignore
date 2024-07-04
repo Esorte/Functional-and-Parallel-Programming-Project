@@ -13,6 +13,7 @@ project/local-plugins.sbt
 .ensime
 .ensime_cache/
 .sbt-scripted/
+.metals/
 local.sbt
 
 # Bloop
