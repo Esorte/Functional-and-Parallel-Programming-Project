@@ -9,7 +9,7 @@ case class Constraint(c1: Cell, c2: Cell, relation: Char)
 *  
 */
 
-class FutoshikiSolver(val grid: Array[Array[Option[Int]]], val constraints: Seq[Constraint]) {
+class FutoshikiSolver(val grid: Array[Array[Option[T]]], val constraints: Seq[Constraint]) {
   val size: Int = grid.length
   val possibleValues: Array[Array[Set[Int]]] = Array.fill(size, size)(Set(1 to size: _*))
 

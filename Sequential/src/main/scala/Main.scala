@@ -42,7 +42,7 @@ object FutoshikiSolverApp extends App {
   //   Constraint(Cell(8, 7), Cell(8, 8), '>')
   // )
 
-  val grid: Array[Array[Option[Int]]] = Array(
+  val grid: Array[Array[Option[T]]] = Array(
     Array(None, None, None, None),
     Array(Some(2), None, None, None),
     Array(None, None, None, None),
