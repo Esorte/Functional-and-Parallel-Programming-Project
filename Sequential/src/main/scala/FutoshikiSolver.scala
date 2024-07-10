@@ -5,11 +5,16 @@ import scala.collection.mutable
 case class Cell(row: Int, col: Int)
 case class Constraint(c1: Cell, c2: Cell, relation: Char)
 
+/* 
+*  
+*/
+
 class FutoshikiSolver(val grid: Array[Array[Option[Int]]], val constraints: Seq[Constraint]) {
   val size: Int = grid.length
   val possibleValues: Array[Array[Set[Int]]] = Array.fill(size, size)(Set(1 to size: _*))
 
   /*
+* if size = 4
 *  possibleValues =
 *  Array(
 *     Array(Set(1, 2, 3, 4), Set(1, 2, 3, 4), Set(1, 2, 3, 4), Set(1, 2, 3, 4)),
@@ -121,7 +126,7 @@ class FutoshikiSolver(val grid: Array[Array[Option[Int]]], val constraints: Seq[
     true
   }
 
-    def solve(): Boolean = {
+  def solve(): Boolean = {
     if (isSolved) return true
     val cell = findEmptyCell().getOrElse(return false)
     for (value <- possibleValues(cell.row)(cell.col)) {
