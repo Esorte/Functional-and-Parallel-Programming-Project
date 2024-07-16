@@ -75,5 +75,13 @@ class FutoshikiPuzzle(val size: Int, initialDigits: Map[(Int, Int), Int], constr
 
   def getInitialBoard: Map[(Int, Int), Int] = initialDigits
 
+      def copy(): FutoshikiPuzzle = {
+        val newPuzzle = new FutoshikiPuzzle(size, initialDigits, constraintsInput)
+        for (row <- 0 until size; col <- 0 until size) {
+        newPuzzle.board(row)(col) = board(row)(col)
+        }
+        newPuzzle
+    }
+
 
 }

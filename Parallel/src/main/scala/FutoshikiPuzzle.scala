@@ -3,17 +3,17 @@ package parf
 class FutoshikiPuzzle(val size: Int, initialDigits: Map[(Int, Int), Int], constraintsInput: List[((Int, Int), (Int, Int))]) {
     val board: Array[Array[Int]] = Array.ofDim[Int](size, size)
 
-  // Convert the List of constraints to a Set for efficient checking
+    // Convert the List of constraints to a Set for efficient checking
     val constraints: Set[((Int, Int), (Int, Int))] = constraintsInput.toSet
 
-  // Initialize board with zeros
+    // Initialize board with zeros
     for (row <- board.indices; col <- board(row).indices) {
-    board(row)(col) = 0
+        board(row)(col) = 0
     }
 
-  // Apply initial values
+    // Apply initial values
     initialDigits.foreach {
-    case ((row, col), value) => board(row)(col) = value
+        case ((row, col), value) => board(row)(col) = value
     }
 
     def isValid(row: Int, col: Int, num: Int): Boolean = {
@@ -24,16 +24,16 @@ class FutoshikiPuzzle(val size: Int, initialDigits: Map[(Int, Int), Int], constr
 
     def checkConstraints(row: Int, col: Int, num: Int): Boolean = {
         constraints.forall {
-            case ((r1, c1), (r2, c2)) =>
+        case ((r1, c1), (r2, c2)) =>
             if (row == r1 && col == c1) num < board(r2)(c2) || board(r2)(c2) == 0
             else if (row == r2 && col == c2) num > board(r1)(c1) || board(r1)(c1) == 0
             else true
         }
     }
 
-    override def toString: String = {
-    val sb = new StringBuilder
-    for (row <- 0 until size) {
+        override def toString: String = {
+        val sb = new StringBuilder
+        for (row <- 0 until size) {
         for (col <- 0 until size) {
             // Append cell value or 0 if empty
             sb.append(initialDigits.getOrElse((row, col), 0))
@@ -56,8 +56,8 @@ class FutoshikiPuzzle(val size: Int, initialDigits: Map[(Int, Int), Int], constr
             sb.append("\n")
         }
         }
-    sb.toString
-    }
+        sb.toString
+        }
 
 
     def isSolved: Boolean = {
@@ -75,12 +75,13 @@ class FutoshikiPuzzle(val size: Int, initialDigits: Map[(Int, Int), Int], constr
 
     def getInitialBoard: Map[(Int, Int), Int] = initialDigits
 
-        def copy(): FutoshikiPuzzle = {
+    def copy(): FutoshikiPuzzle = {
         val newPuzzle = new FutoshikiPuzzle(size, initialDigits, constraintsInput)
         for (row <- 0 until size; col <- 0 until size) {
         newPuzzle.board(row)(col) = board(row)(col)
         }
         newPuzzle
     }
+
 
 }
