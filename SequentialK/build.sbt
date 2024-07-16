@@ -11,16 +11,16 @@ lazy val root = project
     libraryDependencies += "org.scalameta" %% "munit" % "1.0.0" % Test,
   )
 
-// Define a task to run the Python script
-val runPythonGUI = taskKey[Unit]("Runs the Python GUI for board input")
+// // Define a task to run the Python script
+// val runPythonGUI = taskKey[Unit]("Runs the Python GUI for board input")
 
-runPythonGUI := {
-  // Use 'sys.process' to run the Python script
-  val log = streams.value.log
-  log.info("Running Python GUI...")
-  val pythonCommand = "python gui.py"
-  pythonCommand.!
-}
+// runPythonGUI := {
+//   // Use 'sys.process' to run the Python script
+//   val log = streams.value.log
+//   log.info("Running Python GUI...")
+//   val pythonCommand = "python gui.py"
+//   pythonCommand.!
+// }
 
-// Make 'run' depend on 'runPythonGUI', so it runs the Python script first
-run := (run dependsOn runPythonGUI).evaluated
+// // Make 'run' depend on 'runPythonGUI', so it runs the Python script first
+// run := (run dependsOn runPythonGUI).evaluated
