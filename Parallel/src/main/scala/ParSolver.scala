@@ -62,8 +62,8 @@ object ParSolver {
             Future {
                 puzzle.board(initial_row)(initial_col) = num
                 if (backtrack(initial_row, initial_col)) puzzle else None
-                println(s"Board with num $num at position ($initial_row, $initial_col):")
-                puzzle.board.foreach(row => println(row.mkString(" ")))
+                // println(s"Board with num $num at position ($initial_row, $initial_col):")
+                // puzzle.board.foreach(row => println(row.mkString(" ")))
 
             }
         }
