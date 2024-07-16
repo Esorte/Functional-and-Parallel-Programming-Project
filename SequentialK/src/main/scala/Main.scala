@@ -1,24 +1,38 @@
 package sequentialf
+import scala.io.Source
+import play.api.libs.json._
 
 object Main extends App {
-  val initialDigits = Map(
-    (0, 1) -> 2, (0, 2) -> 3,
-    (3, 1) -> 4, (3, 2) -> 2
-  )
-  val constraints = List(
-    ((1, 1), (2, 1)),
-    ((1, 0), (0, 0)),
-    ((3, 2), (3, 3)),
-    ((3, 2), (3, 1))
+  // Read the JSON file
+  val source = Source.fromFile("puzzle_data.json")
+  val jsonString = source.getLines.mkString
+  source.close()
 
-  )
+  // Parse JSON
+  val json = Json.parse(jsonString)
+  
+  val boardSize = (json \ "board_size").as[Int]
+  val initialDigits = (json \ "initial_digits").as[Map[(Int, Int), Int]]
+  val constraints = (json \ "constraints").as[List[((Int, Int), (Int, Int))]]
+  
+  // Initialize your puzzle with these values
+  val puzzle = new FutoshikiPuzzle(boardSize, initialDigits, constraints)
 
-  val puzzle = new FutoshikiPuzzle(4, initialDigits, constraints)
+  // val initialDigits = Map(
+  //   (0, 1) -> 2, (0, 2) -> 3,
+  //   (3, 1) -> 4, (3, 2) -> 2
+  // )
+  // val constraints = List(
+  //   ((1, 1), (2, 1)),
+  //   ((1, 0), (0, 0)),
+  //   ((3, 2), (3, 3)),
+  //   ((3, 2), (3, 1))
+
+  // )
+
+  // val puzzle = new FutoshikiPuzzle(4, initialDigits, constraints)
   println("Initial Puzzle:")
   println(puzzle)
-
-
-
 
 // val initialDigits = Map(
 //   (0, 3) -> 7,
@@ -60,7 +74,6 @@ object Main extends App {
 //   val puzzle = new FutoshikiPuzzle(9, initialDigits, constraints)
 //   println("Initial Puzzle:")
 //   println(puzzle)
-  
 
   PerformanceTest.perstart()
   Solver.solve(puzzle) match {
