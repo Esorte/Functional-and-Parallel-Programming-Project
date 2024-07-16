@@ -1,5 +1,10 @@
 package parf
 
+import scala.collection.mutable.ArrayBuffer
+import scala.concurrent.Future
+import scala.concurrent.Await
+import scala.concurrent.duration.Duration
+import scala.concurrent.ExecutionContext.Implicits.global
 
 
 object ParSolver {
@@ -7,14 +12,27 @@ object ParSolver {
 
         if (puzzle.board(0)(0) != 0) return Some(puzzle.board) // Puzzle already solved
 
-        val possibleNumber = Array.fill(puzzle.size, puzzle.size)(Set.empty[Int])
+        var possibleNumber: ArrayBuffer[Int] = ArrayBuffer[Int]()
 
-        for (row <- puzzle.board.indices; col <- puzzle.board(row).indices) {
-            if (puzzle.board(row)(col) == 0) {
-                possibleNumber(row)(col) = (1 to puzzle.size).toSet
+        var initial_row = 0
+        var initial_col = 0
+
+        while (puzzle.board(initial_row)(initial_col) != 0) {
+            if (initial_col == puzzle.size - 1) {
+                initial_row += 1
+                initial_col = 0
+            } else {
+                initial_col += 1
             }
-        }
+        };
 
+        for (num <- 1 to puzzle.size) {
+            if (puzzle.isValid(initial_row, initial_col, num)) {
+                possibleNumber += num
+            }
+        };
+
+        val possibleNumberArray = possibleNumber.toArray
 
         def backtrack(row: Int, col: Int): Boolean = {
         if (row == puzzle.size) return true // Puzzle solved
@@ -33,6 +51,16 @@ object ParSolver {
         false // No solution found for this path
         }
 
-        if (backtrack(0, 0)) Some(puzzle.board) else None
+        val future = Future {
+            for (num <- possibleNumberArray) {
+                val newPuzzle = puzzle.copy()
+                newPuzzle.board(initial_row)(initial_col) = num
+                if (backtrack(initial_row, initial_col)) return Some(newPuzzle.board)
+            }
+            None
+        }
+
+        Await.result(future, Duration.Inf)
+
     }
 }

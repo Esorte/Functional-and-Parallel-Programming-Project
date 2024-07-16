@@ -1,4 +1,4 @@
-package parf
+error id: file://<WORKSPACE>/Parallel/src/main/scala/FutoshikiPuzzle.scala:[2618..2619) in Input.VirtualFile("file://<WORKSPACE>/Parallel/src/main/scala/FutoshikiPuzzle.scala", "package parf
 
 class FutoshikiPuzzle(val size: Int, initialDigits: Map[(Int, Int), Int], constraintsInput: List[((Int, Int), (Int, Int))]) {
     val board: Array[Array[Int]] = Array.ofDim[Int](size, size)
@@ -75,12 +75,15 @@ class FutoshikiPuzzle(val size: Int, initialDigits: Map[(Int, Int), Int], constr
 
     def getInitialBoard: Map[(Int, Int), Int] = initialDigits
 
-        def copy(): FutoshikiPuzzle = {
-        val newPuzzle = new FutoshikiPuzzle(size, initialDigits, constraintsInput)
-        for (row <- 0 until size; col <- 0 until size) {
-        newPuzzle.board(row)(col) = board(row)(col)
-        }
-        newPuzzle
-    }
 
+    def 
+
+
+}")
+file://<WORKSPACE>/Parallel/src/main/scala/FutoshikiPuzzle.scala
+file://<WORKSPACE>/Parallel/src/main/scala/FutoshikiPuzzle.scala:82: error: expected identifier; obtained rbrace
 }
+^
+#### Short summary: 
+
+expected identifier; obtained rbrace
