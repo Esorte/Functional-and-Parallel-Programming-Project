@@ -1,4 +1,4 @@
-package sequentialpar
+package parf
 
 class FutoshikiPuzzle(val size: Int, initialDigits: Map[(Int, Int), Int], constraintsInput: List[((Int, Int), (Int, Int))]) {
     val board: Array[Array[Int]] = Array.ofDim[Int](size, size)
