@@ -4,6 +4,18 @@ package sequentialpar
 
 object ParSolver {
     def parSolve(puzzle: FutoshikiPuzzle): Option[Array[Array[Int]]] = {
+
+        if (puzzle.board(0)(0) != 0) return Some(puzzle.board) // Puzzle already solved
+
+        val possibleNumber = Array.fill(puzzle.size, puzzle.size)(Set.empty[Int])
+
+        for (row <- puzzle.board.indices; col <- puzzle.board(row).indices) {
+            if (puzzle.board(row)(col) == 0) {
+                possibleNumber(row)(col) = (1 to puzzle.size).toSet
+            }
+        }
+
+
         def backtrack(row: Int, col: Int): Boolean = {
         if (row == puzzle.size) return true // Puzzle solved
         val (nextRow, nextCol) = if (col == puzzle.size - 1) (row + 1, 0) else (row, col + 1)
