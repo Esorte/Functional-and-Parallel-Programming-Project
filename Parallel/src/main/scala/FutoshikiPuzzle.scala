@@ -31,7 +31,7 @@ class FutoshikiPuzzle(val size: Int, initialDigits: Map[(Int, Int), Int], constr
         }
     }
 
-  override def toString: String = {
+    override def toString: String = {
     val sb = new StringBuilder
     for (row <- 0 until size) {
       for (col <- 0 until size) {
