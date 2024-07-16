@@ -62,15 +62,18 @@ def remove_constraint():
 
 # Finalize the puzzle setup and save to a JSON file
 def finish():
-    initial_digits = {k: int(v.get()) for k, v in board_vars.items() if v.get() != "0" and v.get() != ""}
+    initial_digits_str_keys = {str(k): int(v.get()) for k, v in board_vars.items() if v.get() != "0" and v.get() != ""}
     data = {
         "board_size": board_size,
-        "initial_digits": initial_digits,
+        "initial_digits": initial_digits_str_keys,
         "constraints": constraints
     }
+    # print(data)
     
     with open('puzzle_data.json', 'w') as outfile:
         json.dump(data, outfile)
+    
+    root.destroy()
 
 # Main application setup
 root = tk.Tk()
