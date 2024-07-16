@@ -1,4 +1,4 @@
-package sequentialpar
+package parf
 
 object Main extends App {
   val initialDigits = Map(
@@ -14,12 +14,16 @@ object Main extends App {
   println("Initial Puzzle:")
   println(puzzle)
 
+  PerformanceTest.perstart()
   ParSolver.parSolve(puzzle) match {
     case Some(solvedBoard) =>
+      PerformanceTest.perend()
       println("Solved Puzzle:")
       for (row <- solvedBoard) {
         println(row.mkString(" "))
       }
-    case None => println("No solution found.")
+    case None => 
+      PerformanceTest.perend()
+      println("No solution found.")
   }
 }
