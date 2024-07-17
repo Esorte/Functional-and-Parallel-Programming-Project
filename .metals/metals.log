@@ -6282,3 +6282,4 @@ WARNING: Unmatched cancel notification for request id 926
 2024.07.17 19:25:48 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/Main.scala
 2024.07.17 19:25:49 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/Main.scala
 2024.07.17 19:25:49 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/Main.scala
+2024.07.17 19:28:27 INFO  Started: Metals version 1.3.3 in folders 'C:\Users\kongs\OneDrive\Documents\ICCS311\Functional-and-Parallel-Programming-Project' for client Visual Studio Code 1.91.1.

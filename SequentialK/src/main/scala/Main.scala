@@ -3,6 +3,8 @@ import scala.io.Source
 import io.circe._, io.circe.parser._, io.circe.generic.auto._
 
 object Main extends App {
+  val f = "8x8"; // default puzzle_data
+
   // Custom KeyDecoder for (Int, Int) tuples
 implicit val decodeMapKey: KeyDecoder[(Int, Int)] = new KeyDecoder[(Int, Int)] {
   override def apply(key: String): Option[(Int, Int)] = {
@@ -14,7 +16,7 @@ implicit val decodeMapKey: KeyDecoder[(Int, Int)] = new KeyDecoder[(Int, Int)] {
 }
 
   // Read the JSON file
-  val source = Source.fromFile("puzzle_data.json")
+  val source = Source.fromFile(s"${f}.json")
   val jsonString = source.getLines.mkString
   source.close()
 
