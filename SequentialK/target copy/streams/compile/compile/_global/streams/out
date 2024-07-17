@@ -1,0 +1,12 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E120] Naming Error: /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/Main.scala:81:4 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m81 |[0m[33mval[0m [36mconstraints[0m = List([0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m    ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mDouble definition:[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mval constraints: List[List[List[Int]]] in [33mobject[0m [35mMain[0m at line 27 and[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mval constraints: List[((Int, Int), (Int, Int))] in [33mobject[0m [35mMain[0m at line 81[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/Main.scala:81:0 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m81 |[0m[33mval[0m [36mconstraints[0m = List([0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m   |[0m^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mLine is indented too far to the left, or a `}` is missing[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
