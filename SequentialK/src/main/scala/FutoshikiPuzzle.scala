@@ -31,33 +31,32 @@ class FutoshikiPuzzle(val size: Int, initialDigits: Map[(Int, Int), Int], constr
     }
   }
 
-    override def toString: String = {
-    val sb = new StringBuilder
-    for (row <- 0 until size) {
+  override def toString: String = {
+  val sb = new StringBuilder
+  for (row <- 0 until size) {
+  for (col <- 0 until size) {
+      // Append cell value or 0 if empty
+      sb.append(initialDigits.getOrElse((row, col), 0))
+      // Check for horizontal constraints
+      if (col < size - 1) {
+      if (constraints.contains(((row, col), (row, col + 1)))) sb.append(" < ")
+      else if (constraints.contains(((row, col + 1), (row, col)))) sb.append(" > ")
+      else sb.append(" | ")
+      }
+  }
+  sb.append("\n")
+  if (row < size - 1) {
       for (col <- 0 until size) {
-        // Append cell value or 0 if empty
-        sb.append(initialDigits.getOrElse((row, col), 0))
-
-        // Check for horizontal constraints
-        if (col < size - 1) {
-          if (constraints.contains(((row, col), (row, col + 1)))) sb.append(" < ")
-          else if (constraints.contains(((row, col + 1), (row, col)))) sb.append(" > ")
-          else sb.append(" | ")
-        }
+      // Check for vertical constraints
+      if (constraints.contains(((row, col), (row + 1, col)))) sb.append("^   ")
+      else if (constraints.contains(((row + 1, col), (row, col)))) sb.append("v   ")
+      else if (col < size - 1) sb.append("    ")
       }
       sb.append("\n")
-      if (row < size - 1) {
-        for (col <- 0 until size) {
-          // Check for vertical constraints
-          if (constraints.contains(((row, col), (row + 1, col)))) sb.append(" ^ ")
-          else if (constraints.contains(((row + 1, col), (row, col)))) sb.append("v ")
-          else if (col < size - 1) sb.append("   ")
-        }
-        sb.append("\n")
-      }
-    }
-    sb.toString
-    }
+  }
+  }
+  sb.toString
+  }
 
 
   def isSolved: Boolean = {

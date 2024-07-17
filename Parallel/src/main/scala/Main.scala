@@ -132,8 +132,8 @@ object Main extends App {
 // )
 
 //   val puzzle = new FutoshikiPuzzle(8, initialDigits, constraints)
-//   println("Initial Puzzle:")
-//   println(puzzle)
+  println("Initial Puzzle:")
+  println(puzzle)
 
 
 

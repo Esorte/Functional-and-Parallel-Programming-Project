@@ -5,6 +5,7 @@ import scala.concurrent.{Future, Promise, Await}
 import scala.concurrent.duration.Duration
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.util.{Failure, Success, Try}
+import scala.util.control.Breaks._
 
 object ParSolver {
   def parSolve(puzzle: FutoshikiPuzzle): Option[Array[Array[Int]]] = {
@@ -32,7 +33,6 @@ object ParSolver {
     }
 
     val solutionPromise = Promise[Option[Array[Array[Int]]]]()
-        println(possibleNumber.mkString(" "))
 
     possibleNumber.foreach { num =>
       Future {
@@ -61,14 +61,20 @@ object ParSolver {
 
       if (puzzle.board(row)(col) != 0) backtrack(puzzle, nextRow, nextCol) // Skip filled cells
       else {
-        for (num <- 1 to puzzle.size) {
-          if (puzzle.isValid(row, col, num)) {
-            puzzle.board(row)(col) = num
-            if (backtrack(puzzle, nextRow, nextCol)) return true
-            puzzle.board(row)(col) = 0 // Backtrack
+        var result = false
+        breakable {
+          for (num <- 1 to puzzle.size) {
+            if (puzzle.isValid(row, col, num)) {
+              puzzle.board(row)(col) = num
+              if (backtrack(puzzle, nextRow, nextCol)) {
+                result = true
+                break
+              }
+              puzzle.board(row)(col) = 0 // Backtrack
+            }
           }
         }
-        false
+        result
       }
     }
   }
