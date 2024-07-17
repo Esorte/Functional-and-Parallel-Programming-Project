@@ -3,7 +3,7 @@ import scala.io.Source
 import io.circe._, io.circe.parser._, io.circe.generic.auto._
 
 object Main extends App {
-  val f = "8x8"; // default puzzle_data
+  val f = "9x9"; // default puzzle_data
 
   // Custom KeyDecoder for (Int, Int) tuples
   implicit val decodeMapKey: KeyDecoder[(Int, Int)] = new KeyDecoder[(Int, Int)] {

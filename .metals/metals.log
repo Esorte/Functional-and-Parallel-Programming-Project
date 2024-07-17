@@ -6783,3 +6783,867 @@ WARNING: Unmatched cancel notification for request id 264
 2024.07.17 19:35:16 INFO  compiling root (2 scala sources)
 2024.07.17 19:35:16 INFO  time: compiled root in 0.14s
 2024.07.17 19:35:16 WARN  Could not load snapshot text for C:\Users\kongs\OneDrive\Documents\ICCS311\Functional-and-Parallel-Programming-Project\Parallel\src\main\scala\Main.scala
+2024.07.17 23:49:38 INFO  Started: Metals version 1.3.3 in folders '/Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project' for client Visual Studio Code 1.91.1.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@2702ce07]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@5008b660]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@2702ce07]
+2024.07.17 23:49:41 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.07.17 23:49:42 INFO  Attempting to connect to the build server...
+2024.07.17 23:49:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/.metals/bsp.trace.json or /Users/krits/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.07.17 23:49:42 INFO  time: Connected to build server in 0.4s
+2024.07.17 23:49:42 INFO  Connected to Build server: Bloop v1.6.0
+2024.07.17 23:49:42 INFO  running doctor check
+2024.07.17 23:49:42 INFO  java targets: root, root-test
+2024.07.17 23:49:43 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.07.17 23:49:43 INFO  time: indexed workspace in 1.65s
+2024.07.17 23:49:44 WARN  no build target for: /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/SequentialK/src/main/scala/Main.scala
+2024.07.17 23:49:44 INFO  compiling root (4 scala sources)
+2024.07.17 23:49:44 INFO  time: compiled root in 0.28s
+2024.07.17 23:49:44 INFO  no build target found for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/SequentialK/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.17 23:49:44 INFO  compiling root (4 scala sources)
+2024.07.17 23:49:44 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/Main.scala
+2024.07.17 23:49:44 INFO  time: compiled root in 0.34s
+Jul 17, 2024 11:51:14 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.07.17 23:51:25 INFO  no build target found for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/SequentialK/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.17 23:51:26 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/Main.scala
+2024.07.18 00:05:57 INFO  no build target found for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/SequentialK/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.18 00:06:10 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/Main.scala
+2024.07.18 00:06:18 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/Main.scala
+2024.07.18 00:06:19 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/Main.scala
+2024.07.18 00:06:24 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/Main.scala
+2024.07.18 00:06:31 INFO  compiling root (4 scala sources)
+2024.07.18 00:06:31 INFO  time: compiled root in 0.24s
+2024.07.18 00:06:32 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/Main.scala
+2024.07.18 00:06:34 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/Main.scala
+2024.07.18 00:06:34 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/Main.scala
+2024.07.18 00:06:34 INFO  compiling root (4 scala sources)
+2024.07.18 00:06:34 INFO  time: compiled root in 0.18s
+2024.07.18 00:06:35 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/Main.scala
+2024.07.18 00:06:35 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/Main.scala
+2024.07.18 00:06:45 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/Main.scala
+2024.07.18 00:06:46 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/Main.scala
+2024.07.18 00:06:54 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/Main.scala
+2024.07.18 00:06:54 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/Main.scala
+2024.07.18 00:13:41 INFO  no build target found for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/SequentialK/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.18 00:13:49 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:13:51 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:13:52 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:13:54 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:13:55 INFO  compiling root (4 scala sources)
+2024.07.18 00:13:55 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:13:55 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:13:56 INFO  time: compiled root in 1.55s
+2024.07.18 00:13:57 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:13:57 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:13:58 INFO  compiling root (4 scala sources)
+2024.07.18 00:13:58 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:13:59 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:13:59 INFO  time: compiled root in 1.14s
+Jul 18, 2024 12:13:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.ArrayIndexOutOfBoundsException: Index 92 out of bounds for length 92
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: Index 92 out of bounds for length 92
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 92 out of bounds for length 92
+	at scala.meta.internal.metals.formatting.MultilineString.$anonfun$wasTripleQuoted$1(MultilineString.scala:268)
+	at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:190)
+	at scala.meta.internal.metals.formatting.MultilineString.wasTripleQuoted(MultilineString.scala:267)
+	at scala.meta.internal.metals.formatting.MultilineString.contribute(MultilineString.scala:438)
+	at scala.meta.internal.metals.formatting.OnTypeFormattingProvider.$anonfun$format$5(OnTypeFormattingProvider.scala:68)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionList.loop$1(MetalsEnrichments.scala:307)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionList.acceptFirst(MetalsEnrichments.scala:316)
+	at scala.meta.internal.metals.formatting.OnTypeFormattingProvider.$anonfun$format$4(OnTypeFormattingProvider.scala:67)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.formatting.OnTypeFormattingProvider.$anonfun$format$3(OnTypeFormattingProvider.scala:56)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.formatting.OnTypeFormattingProvider.$anonfun$format$2(OnTypeFormattingProvider.scala:55)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.formatting.OnTypeFormattingProvider.format(OnTypeFormattingProvider.scala:53)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onTypeFormatting$1(MetalsLspService.scala:1077)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Jul 18, 2024 12:13:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.ArrayIndexOutOfBoundsException: Index 92 out of bounds for length 92
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: Index 92 out of bounds for length 92
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 92 out of bounds for length 92
+	at scala.meta.internal.metals.formatting.MultilineString.$anonfun$wasTripleQuoted$1(MultilineString.scala:268)
+	at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:190)
+	at scala.meta.internal.metals.formatting.MultilineString.wasTripleQuoted(MultilineString.scala:267)
+	at scala.meta.internal.metals.formatting.MultilineString.contribute(MultilineString.scala:438)
+	at scala.meta.internal.metals.formatting.OnTypeFormattingProvider.$anonfun$format$5(OnTypeFormattingProvider.scala:68)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionList.loop$1(MetalsEnrichments.scala:307)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionList.acceptFirst(MetalsEnrichments.scala:316)
+	at scala.meta.internal.metals.formatting.OnTypeFormattingProvider.$anonfun$format$4(OnTypeFormattingProvider.scala:67)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.formatting.OnTypeFormattingProvider.$anonfun$format$3(OnTypeFormattingProvider.scala:56)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.formatting.OnTypeFormattingProvider.$anonfun$format$2(OnTypeFormattingProvider.scala:55)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.formatting.OnTypeFormattingProvider.format(OnTypeFormattingProvider.scala:53)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onTypeFormatting$1(MetalsLspService.scala:1077)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Jul 18, 2024 12:14:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.ArrayIndexOutOfBoundsException: Index 92 out of bounds for length 92
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: Index 92 out of bounds for length 92
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 92 out of bounds for length 92
+	at scala.meta.internal.metals.formatting.MultilineString.$anonfun$wasTripleQuoted$1(MultilineString.scala:268)
+	at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:190)
+	at scala.meta.internal.metals.formatting.MultilineString.wasTripleQuoted(MultilineString.scala:267)
+	at scala.meta.internal.metals.formatting.MultilineString.contribute(MultilineString.scala:438)
+	at scala.meta.internal.metals.formatting.OnTypeFormattingProvider.$anonfun$format$5(OnTypeFormattingProvider.scala:68)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionList.loop$1(MetalsEnrichments.scala:307)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionList.acceptFirst(MetalsEnrichments.scala:316)
+	at scala.meta.internal.metals.formatting.OnTypeFormattingProvider.$anonfun$format$4(OnTypeFormattingProvider.scala:67)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.formatting.OnTypeFormattingProvider.$anonfun$format$3(OnTypeFormattingProvider.scala:56)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.formatting.OnTypeFormattingProvider.$anonfun$format$2(OnTypeFormattingProvider.scala:55)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.formatting.OnTypeFormattingProvider.format(OnTypeFormattingProvider.scala:53)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onTypeFormatting$1(MetalsLspService.scala:1077)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Jul 18, 2024 12:14:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.ArrayIndexOutOfBoundsException: Index 92 out of bounds for length 92
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: Index 92 out of bounds for length 92
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 92 out of bounds for length 92
+	at scala.meta.internal.metals.formatting.MultilineString.$anonfun$wasTripleQuoted$1(MultilineString.scala:268)
+	at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:190)
+	at scala.meta.internal.metals.formatting.MultilineString.wasTripleQuoted(MultilineString.scala:267)
+	at scala.meta.internal.metals.formatting.MultilineString.contribute(MultilineString.scala:438)
+	at scala.meta.internal.metals.formatting.OnTypeFormattingProvider.$anonfun$format$5(OnTypeFormattingProvider.scala:68)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionList.loop$1(MetalsEnrichments.scala:307)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionList.acceptFirst(MetalsEnrichments.scala:316)
+	at scala.meta.internal.metals.formatting.OnTypeFormattingProvider.$anonfun$format$4(OnTypeFormattingProvider.scala:67)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.formatting.OnTypeFormattingProvider.$anonfun$format$3(OnTypeFormattingProvider.scala:56)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.formatting.OnTypeFormattingProvider.$anonfun$format$2(OnTypeFormattingProvider.scala:55)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.formatting.OnTypeFormattingProvider.format(OnTypeFormattingProvider.scala:53)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onTypeFormatting$1(MetalsLspService.scala:1077)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2024.07.18 00:14:00 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:14:00 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:14:02 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:14:02 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:14:03 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:14:03 INFO  compiling root (4 scala sources)
+2024.07.18 00:14:03 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:14:04 INFO  time: compiled root in 1.17s
+Jul 18, 2024 12:14:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 278
+2024.07.18 00:14:06 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:14:07 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:14:07 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:14:07 INFO  compiling root (4 scala sources)
+2024.07.18 00:14:08 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:14:09 INFO  time: compiled root in 1.23s
+2024.07.18 00:14:09 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:14:11 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:14:12 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:14:13 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:14:13 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:14:13 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:14:15 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:14:15 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+Jul 18, 2024 12:14:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 408
+2024.07.18 00:14:19 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:14:20 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:14:21 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:14:22 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:14:23 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:14:23 INFO  compiling root (4 scala sources)
+2024.07.18 00:14:23 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:14:24 INFO  time: compiled root in 1.34s
+2024.07.18 00:14:25 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:14:26 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:14:26 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:14:26 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:14:27 INFO  no build target found for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/SequentialK/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.18 00:14:27 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:14:48 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:14:51 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:14:51 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:14:52 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:14:54 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:14:54 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:14:54 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:15:12 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:15:14 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:15:16 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:15:21 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:15:22 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:15:23 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:15:25 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:15:25 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:15:26 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:15:27 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:15:29 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:15:30 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:15:31 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:15:31 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:15:31 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:15:32 INFO  compiling root (4 scala sources)
+2024.07.18 00:15:32 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:15:32 INFO  time: compiled root in 0.28s
+2024.07.18 00:15:32 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:15:33 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:15:34 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:15:37 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:15:37 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:15:38 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:15:38 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:15:38 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:15:39 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:15:40 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:15:41 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:15:41 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:15:58 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:16:04 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:16:05 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:16:05 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:16:08 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:16:09 INFO  compiling root (4 scala sources)
+2024.07.18 00:16:09 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:16:09 INFO  time: compiled root in 0.28s
+2024.07.18 00:16:09 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:17:00 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:17:02 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:17:14 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:17:20 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:17:22 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:17:22 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:17:22 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:17:23 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:17:23 INFO  compiling root (4 scala sources)
+2024.07.18 00:17:23 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:17:23 INFO  time: compiled root in 0.28s
+2024.07.18 00:17:24 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:17:24 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:17:25 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:17:26 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:17:27 INFO  compiling root (4 scala sources)
+2024.07.18 00:17:27 INFO  time: compiled root in 0.15s
+2024.07.18 00:17:27 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:17:45 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:17:47 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:17:51 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:17:54 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:17:55 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:17:56 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:17:57 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:17:57 INFO  compiling root (4 scala sources)
+2024.07.18 00:17:57 INFO  time: compiled root in 0.27s
+2024.07.18 00:17:58 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:17:58 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:17:59 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:17:59 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:18:17 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:18:27 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:18:28 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:18:29 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:18:30 INFO  compiling root (4 scala sources)
+2024.07.18 00:18:30 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:18:30 INFO  time: compiled root in 0.31s
+2024.07.18 00:18:30 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:18:32 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:18:35 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:18:35 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:18:35 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:18:58 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:19:00 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:19:07 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:19:09 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:19:10 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:19:11 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:19:12 INFO  compiling root (4 scala sources)
+2024.07.18 00:19:12 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:19:12 INFO  time: compiled root in 0.28s
+2024.07.18 00:19:12 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:19:14 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:19:36 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:19:39 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:19:46 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:19:47 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:19:48 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:19:49 INFO  compiling root (4 scala sources)
+2024.07.18 00:19:49 INFO  time: compiled root in 0.28s
+2024.07.18 00:19:49 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:19:51 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:20:13 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:20:18 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:20:19 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:20:19 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:20:21 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:20:22 INFO  compiling root (4 scala sources)
+2024.07.18 00:20:22 INFO  time: compiled root in 0.24s
+2024.07.18 00:20:22 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:20:56 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:20:59 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:21:00 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:21:01 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:21:01 INFO  compiling root (4 scala sources)
+2024.07.18 00:21:01 INFO  time: compiled root in 0.25s
+2024.07.18 00:21:02 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:21:14 INFO  no build target found for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/SequentialK/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.18 00:21:16 INFO  no build target found for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/SequentialK/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.18 00:21:16 INFO  no build target found for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/SequentialK/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.18 00:21:16 INFO  no build target found for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/SequentialK/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.18 00:21:17 INFO  no build target found for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/SequentialK/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.18 00:21:17 INFO  no build target found for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/SequentialK/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.18 00:21:17 INFO  no build target found for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/SequentialK/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.18 00:21:18 INFO  no build target found for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/SequentialK/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.18 00:21:17 INFO  no build target found for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/SequentialK/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.18 00:21:19 INFO  no build target found for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/SequentialK/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.18 00:21:19 INFO  no build target found for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/SequentialK/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.18 00:21:19 WARN  no build target for: /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/SequentialK/src/main/scala/Main.scala
+2024.07.18 00:22:18 INFO  no build target found for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/SequentialK/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.18 00:22:22 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/Main.scala
+2024.07.18 00:22:23 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:22:23 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:22:24 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:22:25 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:22:25 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:22:25 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:22:25 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:22:25 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:22:25 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:22:29 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:22:31 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:22:43 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:22:43 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:22:43 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:22:43 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:22:44 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:22:44 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:22:48 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:22:48 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:22:48 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:22:48 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:22:52 INFO  no build target found for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/SequentialK/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.18 00:22:58 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:23:01 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:23:22 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:23:42 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+Jul 18, 2024 12:24:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://8859f30d-cf19-4d3b-990e-ba3d8d5938f5/response_34/0#%7B%22references%22%3A%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22%2FUsers%2Fkrits%2FDocuments%2FGitHub%2FFunctional-and-Parallel-Programming-Project%2FParallel%2Fsrc%2Fmain%2Fscala%2FParSolver.scala%22%2C%22external%22%3A%22file%3A%2F%2F%2FUsers%2Fkrits%2FDocuments%2FGitHub%2FFunctional-and-Parallel-Programming-Project%2FParallel%2Fsrc%2Fmain%2Fscala%2FParSolver.scala%22%2C%22path%22%3A%22%2FUsers%2Fkrits%2FDocuments%2FGitHub%2FFunctional-and-Parallel-Programming-Project%2FParallel%2Fsrc%2Fmain%2Fscala%2FParSolver.scala%22%2C%22scheme%22%3A%22file%22%7D%2C%22range%22%3A%7B%22startLineNumber%22%3A1%2C%22startColumn%22%3A1%2C%22endLineNumber%22%3A81%2C%22endColumn%22%3A2%7D%7D%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:131)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:188)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:756)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:753)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:695)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	at jdk.internal.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+2024.07.18 00:24:00 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:24:32 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:24:32 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:24:32 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:24:32 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:24:32 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:24:33 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:24:38 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:24:39 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:24:39 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:24:40 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:24:40 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:24:40 INFO  compiling root (4 scala sources)
+2024.07.18 00:24:41 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:24:40 INFO  time: compiled root in 0.32s
+2024.07.18 00:24:41 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:24:43 INFO  no build target found for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/SequentialK/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.18 00:24:45 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+Jul 18, 2024 12:24:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://8859f30d-cf19-4d3b-990e-ba3d8d5938f5/response_34/0#%7B%22references%22%3A%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22%2FUsers%2Fkrits%2FDocuments%2FGitHub%2FFunctional-and-Parallel-Programming-Project%2FParallel%2Fsrc%2Fmain%2Fscala%2FParSolver.scala%22%2C%22external%22%3A%22file%3A%2F%2F%2FUsers%2Fkrits%2FDocuments%2FGitHub%2FFunctional-and-Parallel-Programming-Project%2FParallel%2Fsrc%2Fmain%2Fscala%2FParSolver.scala%22%2C%22path%22%3A%22%2FUsers%2Fkrits%2FDocuments%2FGitHub%2FFunctional-and-Parallel-Programming-Project%2FParallel%2Fsrc%2Fmain%2Fscala%2FParSolver.scala%22%2C%22scheme%22%3A%22file%22%7D%2C%22range%22%3A%7B%22startLineNumber%22%3A1%2C%22startColumn%22%3A1%2C%22endLineNumber%22%3A81%2C%22endColumn%22%3A2%7D%7D%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:131)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:188)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:756)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:753)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:695)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	at jdk.internal.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+2024.07.18 00:24:48 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:24:48 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:24:48 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:24:50 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:24:51 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:24:51 INFO  compiling root (4 scala sources)
+2024.07.18 00:24:51 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:24:51 INFO  time: compiled root in 0.33s
+2024.07.18 00:24:52 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:25:16 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:25:17 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:25:21 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:26:11 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:26:12 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:26:15 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:26:15 INFO  compiling root (4 scala sources)
+2024.07.18 00:26:15 INFO  time: compiled root in 0.35s
+2024.07.18 00:26:16 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:26:37 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:27:14 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:27:14 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:27:14 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:27:14 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:27:16 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:27:16 INFO  compiling root (4 scala sources)
+2024.07.18 00:27:16 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:27:16 INFO  time: compiled root in 0.41s
+2024.07.18 00:27:17 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:27:20 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:27:42 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:27:42 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:27:45 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:27:50 INFO  no build target found for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/SequentialK/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.18 00:27:50 INFO  no build target found for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/SequentialK/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.18 00:27:50 INFO  no build target found for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/SequentialK/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.18 00:27:54 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/Main.scala
+2024.07.18 00:27:55 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/Main.scala
+2024.07.18 00:27:56 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/Main.scala
+2024.07.18 00:27:57 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/Main.scala
+2024.07.18 00:27:57 INFO  compiling root (4 scala sources)
+2024.07.18 00:27:57 INFO  time: compiled root in 0.26s
+2024.07.18 00:27:57 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/Main.scala
+2024.07.18 00:27:58 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/Main.scala
+2024.07.18 00:27:59 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/Main.scala
+2024.07.18 00:27:59 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/Main.scala
+2024.07.18 00:28:00 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/Main.scala
+2024.07.18 00:28:00 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/Main.scala
+2024.07.18 00:28:00 INFO  compiling root (4 scala sources)
+2024.07.18 00:28:00 INFO  time: compiled root in 0.26s
+2024.07.18 00:28:01 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/Main.scala
+2024.07.18 00:28:21 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/Main.scala
+2024.07.18 00:28:47 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/Main.scala
+2024.07.18 00:29:18 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/Main.scala
+2024.07.18 00:29:22 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/Main.scala
+2024.07.18 00:29:25 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+Jul 18, 2024 12:29:26 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2283
+2024.07.18 00:29:26 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:29:27 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:29:27 INFO  compiling root (4 scala sources)
+2024.07.18 00:29:27 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:29:27 INFO  time: compiled root in 0.45s
+2024.07.18 00:29:28 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:30:04 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:30:06 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:30:10 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:30:21 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:30:22 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:30:23 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:30:24 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:30:24 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:30:25 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:30:25 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:30:26 INFO  compiling root (4 scala sources)
+2024.07.18 00:30:26 INFO  time: compiled root in 0.25s
+2024.07.18 00:30:27 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:30:28 INFO  compiling root (4 scala sources)
+2024.07.18 00:30:28 INFO  time: compiled root in 0.14s
+2024.07.18 00:30:28 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:30:29 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:30:50 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:30:57 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:30:59 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:31:07 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:31:10 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:31:10 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:31:23 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:31:23 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:31:27 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:31:28 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+Jul 18, 2024 12:32:25 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://8859f30d-cf19-4d3b-990e-ba3d8d5938f5/response_35/0#%7B%22references%22%3A%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22%2FUsers%2Fkrits%2FDocuments%2FGitHub%2FFunctional-and-Parallel-Programming-Project%2FParallel%2Fsrc%2Fmain%2Fscala%2FParSolver.scala%22%2C%22external%22%3A%22file%3A%2F%2F%2FUsers%2Fkrits%2FDocuments%2FGitHub%2FFunctional-and-Parallel-Programming-Project%2FParallel%2Fsrc%2Fmain%2Fscala%2FParSolver.scala%22%2C%22path%22%3A%22%2FUsers%2Fkrits%2FDocuments%2FGitHub%2FFunctional-and-Parallel-Programming-Project%2FParallel%2Fsrc%2Fmain%2Fscala%2FParSolver.scala%22%2C%22scheme%22%3A%22file%22%7D%2C%22range%22%3A%7B%22startLineNumber%22%3A19%2C%22startColumn%22%3A1%2C%22endLineNumber%22%3A33%2C%22endColumn%22%3A6%7D%7D%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:131)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:188)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:756)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:753)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:695)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	at jdk.internal.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+2024.07.18 00:32:25 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:32:28 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:32:29 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:32:29 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:32:30 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:32:30 INFO  compiling root (4 scala sources)
+2024.07.18 00:32:30 INFO  time: compiled root in 0.29s
+2024.07.18 00:32:31 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:32:31 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:32:32 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:32:33 INFO  compiling root (4 scala sources)
+2024.07.18 00:32:33 INFO  time: compiled root in 0.23s
+2024.07.18 00:32:33 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:32:41 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:32:43 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:32:44 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:32:45 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:32:47 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:32:48 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:32:49 INFO  compiling root (4 scala sources)
+2024.07.18 00:32:49 INFO  time: compiled root in 0.3s
+2024.07.18 00:32:49 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+Jul 18, 2024 12:32:50 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://8859f30d-cf19-4d3b-990e-ba3d8d5938f5/response_35/0#%7B%22references%22%3A%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22%2FUsers%2Fkrits%2FDocuments%2FGitHub%2FFunctional-and-Parallel-Programming-Project%2FParallel%2Fsrc%2Fmain%2Fscala%2FParSolver.scala%22%2C%22external%22%3A%22file%3A%2F%2F%2FUsers%2Fkrits%2FDocuments%2FGitHub%2FFunctional-and-Parallel-Programming-Project%2FParallel%2Fsrc%2Fmain%2Fscala%2FParSolver.scala%22%2C%22path%22%3A%22%2FUsers%2Fkrits%2FDocuments%2FGitHub%2FFunctional-and-Parallel-Programming-Project%2FParallel%2Fsrc%2Fmain%2Fscala%2FParSolver.scala%22%2C%22scheme%22%3A%22file%22%7D%2C%22range%22%3A%7B%22startLineNumber%22%3A19%2C%22startColumn%22%3A1%2C%22endLineNumber%22%3A33%2C%22endColumn%22%3A6%7D%7D%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:131)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:188)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:756)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:753)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:695)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	at jdk.internal.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+2024.07.18 00:32:50 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:32:54 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:32:54 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:32:55 INFO  compiling root (4 scala sources)
+2024.07.18 00:32:55 INFO  time: compiled root in 0.15s
+2024.07.18 00:32:55 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:32:56 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:32:57 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:32:59 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:32:59 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:33:00 INFO  compiling root (4 scala sources)
+2024.07.18 00:33:00 INFO  time: compiled root in 0.2s
+2024.07.18 00:33:00 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:33:03 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:33:11 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:33:12 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:33:13 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/Main.scala
+Jul 18, 2024 12:33:15 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2524
+2024.07.18 00:33:16 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:33:16 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:33:25 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:34:00 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:34:00 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:34:02 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:34:02 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:34:02 INFO  compiling root (4 scala sources)
+2024.07.18 00:34:03 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:34:02 INFO  time: compiled root in 0.35s
+2024.07.18 00:34:03 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:34:04 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:34:18 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:34:18 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:34:18 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:34:19 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:34:20 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:34:27 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:34:34 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:34:43 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:34:45 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/Main.scala
+2024.07.18 00:34:46 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/Main.scala
+2024.07.18 00:34:48 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/Main.scala
+2024.07.18 00:34:49 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/Main.scala
+2024.07.18 00:34:49 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/Main.scala
+2024.07.18 00:34:49 INFO  compiling root (4 scala sources)
+2024.07.18 00:34:49 INFO  time: compiled root in 0.26s
+2024.07.18 00:34:50 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/Main.scala
+2024.07.18 00:34:52 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/Main.scala
+2024.07.18 00:34:53 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/Main.scala
+2024.07.18 00:34:54 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:34:55 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:35:21 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:35:22 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:35:24 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:35:25 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:35:26 INFO  compiling root (4 scala sources)
+2024.07.18 00:35:26 INFO  time: compiled root in 0.24s
+2024.07.18 00:35:27 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:35:34 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:35:35 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/Main.scala
+2024.07.18 00:36:13 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:36:14 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:36:15 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:36:15 INFO  compiling root (4 scala sources)
+2024.07.18 00:36:15 INFO  time: compiled root in 0.21s
+2024.07.18 00:36:16 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:36:18 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:36:20 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:36:29 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:36:30 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:36:31 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:36:34 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:36:38 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:36:39 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:36:46 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:36:48 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:36:49 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:36:50 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+Jul 18, 2024 12:36:58 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3372
+2024.07.18 00:36:58 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:36:59 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:37:00 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:37:01 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:37:04 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:37:04 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:37:05 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:37:06 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:37:07 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:37:09 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:37:09 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:37:10 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:37:13 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:37:13 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:37:14 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:37:19 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:37:20 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:37:20 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:37:21 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:37:23 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:37:25 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:37:26 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:37:26 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:37:28 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:37:28 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:37:30 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:37:32 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:37:33 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:37:33 INFO  compiling root (4 scala sources)
+2024.07.18 00:37:33 INFO  time: compiled root in 0.28s
+2024.07.18 00:37:33 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:37:35 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:37:36 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:39:48 INFO  no build target found for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/SequentialK/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.18 00:39:49 INFO  no build target found for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/SequentialK/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.18 00:39:51 WARN  Target root /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/.bloop/root/bloop-bsp-clients-classes/classes-Metals-tuXjNNV5Qhez9gvHHDUrEA== does not exist
+2024.07.18 00:39:56 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/.metals/bsp.trace.json or /Users/krits/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.07.18 00:39:56 INFO  Connected to Build server: Bloop v1.6.0
+2024.07.18 00:39:56 INFO  running doctor check
+2024.07.18 00:39:56 INFO  java targets: root, root-test
+2024.07.18 00:39:57 INFO  time: indexed workspace in 1.15s
+2024.07.18 00:39:57 WARN  no build target for: /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/SequentialK/src/main/scala/Main.scala
+2024.07.18 00:39:57 INFO  no build target found for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/SequentialK/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.18 00:41:44 INFO  compiling root (4 scala sources)
+2024.07.18 00:41:44 INFO  time: compiled root in 0.69s
+2024.07.18 00:41:50 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/Main.scala
+2024.07.18 00:44:13 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/Main.scala
+2024.07.18 00:44:18 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/Main.scala
+2024.07.18 00:44:20 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:44:22 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:44:30 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:44:39 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:44:40 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:44:41 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:44:42 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:44:44 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:44:45 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:44:46 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:44:48 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:44:48 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:44:50 INFO  compiling root (4 scala sources)
+2024.07.18 00:44:50 INFO  time: compiled root in 0.29s
+2024.07.18 00:44:51 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:44:51 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:44:52 INFO  compiling root (4 scala sources)
+2024.07.18 00:44:52 INFO  time: compiled root in 0.2s
+2024.07.18 00:44:52 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:44:54 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:44:55 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:46:46 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:46:47 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:46:49 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:46:57 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:46:59 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:46:59 INFO  compiling root (4 scala sources)
+2024.07.18 00:47:00 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:46:59 INFO  time: compiled root in 0.37s
+2024.07.18 00:47:00 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:47:01 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:47:01 INFO  compiling root (4 scala sources)
+2024.07.18 00:47:01 INFO  time: compiled root in 0.26s
+2024.07.18 00:47:04 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:47:06 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:47:08 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:47:14 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:47:14 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:47:18 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:47:19 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:47:20 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:47:21 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:47:22 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:47:22 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:47:24 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:50:45 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/ParSolver.scala
+2024.07.18 00:51:47 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:51:51 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:51:52 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:51:53 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:51:54 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:51:54 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:51:54 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:51:54 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:51:54 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:51:54 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:51:54 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:53:17 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:53:19 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:53:20 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:53:21 INFO  compiling root (4 scala sources)
+2024.07.18 00:53:21 INFO  time: compiled root in 0.27s
+2024.07.18 00:53:21 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:53:22 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:53:23 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:53:23 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:53:27 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:53:28 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:53:28 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:53:28 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
+2024.07.18 00:53:28 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/FutoshikiPuzzle.scala
