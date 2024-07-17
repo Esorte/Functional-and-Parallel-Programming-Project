@@ -6,14 +6,14 @@ object Main extends App {
   val f = "8x8"; // default puzzle_data
 
   // Custom KeyDecoder for (Int, Int) tuples
-implicit val decodeMapKey: KeyDecoder[(Int, Int)] = new KeyDecoder[(Int, Int)] {
-  override def apply(key: String): Option[(Int, Int)] = {
-    key.trim.drop(1).dropRight(1).split(",").map(_.trim.toIntOption) match {
-      case Array(Some(x), Some(y)) => Some((x, y))
-      case _ => None
+  implicit val decodeMapKey: KeyDecoder[(Int, Int)] = new KeyDecoder[(Int, Int)] {
+    override def apply(key: String): Option[(Int, Int)] = {
+      key.trim.drop(1).dropRight(1).split(",").map(_.trim.toIntOption) match {
+        case Array(Some(x), Some(y)) => Some((x, y))
+        case _ => None
+      }
     }
   }
-}
 
   // Read the JSON file
   val source = Source.fromFile(s"${f}.json")
