@@ -49,9 +49,9 @@ class FutoshikiPuzzle(val size: Int, initialDigits: Map[(Int, Int), Int], constr
         if (row < size - 1) {
             for (col <- 0 until size) {
             // Check for vertical constraints
-            if (constraints.contains(((row, col), (row + 1, col)))) sb.append(" ^ ")
-            else if (constraints.contains(((row + 1, col), (row, col)))) sb.append("v ")
-            else if (col < size - 1) sb.append("   ")
+            if (constraints.contains(((row, col), (row + 1, col)))) sb.append("^   ")
+            else if (constraints.contains(((row + 1, col), (row, col)))) sb.append("v   ")
+            else if (col < size - 1) sb.append("    ")
             }
             sb.append("\n")
         }

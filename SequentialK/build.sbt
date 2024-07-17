@@ -19,9 +19,9 @@ lazy val root = project
   )
 
 // Define a task to run the Python script and wait for it to finish
-val runp = taskKey[Unit]("Runs the Python GUI for board input")
+val runPythonGUI = taskKey[Unit]("Runs the Python GUI for board input")
 
-runp := {
+runPythonGUI := {
   val log = streams.value.log
   log.info("Running Python GUI...")
   // This command runs the Python script and waits for it to finish
@@ -31,10 +31,10 @@ runp := {
 }
 
 // Define a new task that runs the Python GUI and then runs the main Scala application
-val runWithPythonGUI = taskKey[Unit]("Runs the Python GUI and then the Scala application")
+val runp = taskKey[Unit]("Runs the Python GUI and then the Scala application")
 
 // Corrected definition of runWithPythonGUI task
-runWithPythonGUI := Def.sequential(
+runp := Def.sequential(
   runPythonGUI,
   (Compile / run).toTask("")
 ).value
