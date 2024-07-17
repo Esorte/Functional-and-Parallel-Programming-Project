@@ -32,12 +32,15 @@ object ParSolver {
     }
 
     val solutionPromise = Promise[Option[Array[Array[Int]]]]()
+        // println(possibleNumber.mkString(" "))
 
     possibleNumber.foreach { num =>
       Future {
         if (!solutionPromise.isCompleted) {
           val newPuzzle = puzzle.clonePuzzle() // Clone the puzzle to avoid shared state issues
           newPuzzle.board(initial_row)(initial_col) = num
+          // println(s"Board with num $num at position ($initial_row, $initial_col):")
+          // puzzle.board.foreach(row => println(row.mkString(" ")))
           if (backtrack(newPuzzle, initial_row, initial_col)) {
             solutionPromise.trySuccess(Some(newPuzzle.board))
           }
