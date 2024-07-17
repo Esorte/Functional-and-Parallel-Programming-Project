@@ -32,7 +32,7 @@ object ParSolver {
     }
 
     val solutionPromise = Promise[Option[Array[Array[Int]]]]()
-        // println(possibleNumber.mkString(" "))
+        println(possibleNumber.mkString(" "))
 
     possibleNumber.foreach { num =>
       Future {
