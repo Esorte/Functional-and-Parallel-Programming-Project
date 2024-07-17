@@ -7678,3 +7678,5 @@ WARNING: Unmatched cancel notification for request id 3372
 2024.07.18 01:25:15 INFO  no build target found for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/SequentialK/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
 2024.07.18 01:25:16 WARN  no build target for: /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/SequentialK/src/main/scala/Main.scala
 2024.07.18 01:25:16 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/Main.scala
+2024.07.18 01:54:23 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/Main.scala
+2024.07.18 01:54:51 WARN  Could not load snapshot text for /Users/krits/Documents/GitHub/Functional-and-Parallel-Programming-Project/Parallel/src/main/scala/Main.scala
