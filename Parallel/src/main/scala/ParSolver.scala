@@ -9,7 +9,7 @@ import scala.util.control.Breaks._
 
 object ParSolver {
   def parSolve(puzzle: FutoshikiPuzzle): Option[Array[Array[Int]]] = {
-    if (puzzle.board(0)(0) != 0) return Some(puzzle.board) // Puzzle already solved
+    if (puzzle.isSolved) return Some(puzzle.board) // Puzzle already solved
 
     var possibleNumber: ArrayBuffer[Int] = ArrayBuffer[Int]()
     var initial_row = 0
