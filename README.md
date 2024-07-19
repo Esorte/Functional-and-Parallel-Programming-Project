@@ -15,4 +15,6 @@ Our code component for both Parallel and sequential composed of
 
 
 **How parrallel version work** \
-hi
+- First check if the board is solved. if it is return the board
+- Find the first empty cell using for loop.
+- Once the first empty cell is found. Perform checker to check all the possible number that would be possible to put in the cell by checking with constraint and uniquness of the row and column
