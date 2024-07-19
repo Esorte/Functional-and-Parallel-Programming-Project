@@ -4,7 +4,7 @@ This Project is about parallelizing the Futoshiki Solver
 
 
 Our code component for both Parallel and sequential composed of 
-- GUI.py: Output an GRID GUI for inputing initial number and constraints run using (sbt runp)
+- GUI.py: Initialise a GUI for inputing initial number and constraints run using (sbt runp)
 - Main.scala: Reading board from json file and call on Solver/ParSolver 
 - FutoshikPuzzle.scala: Puzzle object that were use in the solver
 - PerformanceTest.scala: returning run time after the solver had been performed.
