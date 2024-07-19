@@ -42,7 +42,7 @@ the size of the board increases.
 After 7x7 the Parallel Solver take
 the lead and we see a speed up
 of up to 7.8x for the 8x8 board.
-The result can be seen more clearly in the Funpar Runtime Comparism sheet
+The result can be seen more clearly in the Funpar Runtime Comparism sheet.
 Our 9x9 board result is slightly
 skewed as we used board with
 multiple possible solution to
@@ -73,7 +73,7 @@ Parallelisation on smaller workload.
 
 **Note:** \
 Our runtime is hughly affected by the complexness of the constraint and the grid size. \
-On a 9x9 grid with less complex constrait the runtime of our sequential can be faster then the parallel version as this due to the overhead of the initalizing each future for them empty cell as mention on how the parralel version work. With the less complex constrait board there are more solution for the board, thus the sequtial was able to find a solution before the future finished or even start initalize.
+with 9x9 grid but less complex constrait the runtime of our sequential can be faster then the parallel version as this due to the overhead of the initalizing each future for them empty cell as mention on how the parralel version work. With the less complex constrait board there are more solution for the board, thus the sequtial was able to find a solution before the future finished or even start initalize.
 
 
 
