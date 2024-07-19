@@ -14,7 +14,7 @@ Our code component for both Parallel and sequential composed of
 **Backtracking Logic:** For each cell, if it's not empty, it moves to the next cell. If it's empty, it tries each possible number, sets the number in the cell, and recursively attempts to solve the puzzle from that point. If a solution path fails, it resets the cell (backtracks) and tries the next number. If it successfully fills all cells, it returns true.
 
 
-**How parrallel version work** \
+**How parrallel version work** 
 - First check if the board is solved. if it is return the board
 - Find the first empty cell using for loop.
 - Once the first empty cell is found. Perform checker to check all the possible number that would be possible to put in the cell by checking with constraint and uniquness of the row and column
