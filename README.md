@@ -18,3 +18,6 @@ Our code component for both Parallel and sequential composed of
 - First check if the board is solved. if it is return the board
 - Find the first empty cell using for loop.
 - Once the first empty cell is found. Perform checker to check all the possible number that would be possible to put in the cell by checking with constraint and uniquness of the row and column
+- For each of the possible number we call on Future to attemp to solve based starting with a number from possible_number
+- Each future use recursive backtracking to sovle the the board.
+- Once any of the future is complete the promise with solution return.
