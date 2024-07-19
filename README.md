@@ -73,7 +73,7 @@ Parallelisation on smaller workload.
 
 **Note:** \
 Our runtime is hughly affected by the complexness of the constraint and the grid size. \
-with 9x9 grid but less complex constrait the runtime of our sequential can be faster then the parallel version as this due to the overhead of the initalizing each future for them empty cell as mention on how the parralel version work. With the less complex constrait board there are more solution for the board, thus the sequtial was able to find a solution before the future finished or even start initalize.
+On a 9x9 grid with less complex constrait the runtime of our sequential can be faster then the parallel version as this due to the overhead of the initalizing each future for them empty cell as mention on how the parralel version work. With the less complex constrait board there are more solution for the board, thus the sequtial was able to find a solution before the future finished or even start initalize.
 
 
 
