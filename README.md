@@ -31,7 +31,7 @@ using the Parallel Solver
 compared to the
 Sequential Solver.
 
-**Reuslt** \
+**Result** \
 For smaller board size the run
 time of the Sequential Solver was
 faster with a 4x4 board being 7x
